@@ -61,6 +61,8 @@ margin-bottom:2.5em;
 }
 
 /* Headings and Stuff */
+
+
 h2 { 
     margin-bottom: 1em;
     font-family: 'Big Shoulders Display', cursive;
@@ -80,14 +82,14 @@ p {
 /* Buttons and Stuff */
 button {
     all: unset;
-    width: 70%;
+    width: 80%;
     height: 13%;
     margin-top: 2.5em;
     margin-bottom: 3em;
     border-radius: 5em;
     background-color:white;
     text-align: center;
-border: 0.15em solid transparent; 
+    border: 0.15em solid transparent; 
 }
 
 button { 
@@ -185,6 +187,9 @@ button {
     p {
         margin-bottom: 4em;
     }
+    button { 
+        margin-bottom: 2.5em;
+    }
 }
 
 @media (min-width: 1600px) {
@@ -192,7 +197,7 @@ button {
         height: 100vh;
         padding: 25em;  
     }
- button { 
+    button { 
         margin-bottom: 2.5em;
     }
 }
