@@ -87,6 +87,7 @@ button {
     border-radius: 5em;
     background-color:white;
     text-align: center;
+border: 0.15em solid transparent; 
 }
 
 button { 
@@ -190,5 +191,8 @@ button {
     body {
         height: 100vh;
         padding: 25em;  
+    }
+ button { 
+        margin-bottom: 2.5em;
     }
 }
